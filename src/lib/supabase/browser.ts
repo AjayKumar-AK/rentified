@@ -1,3 +1,4 @@
+import { getPublicSupabaseKey } from '@/lib/config';
 import { createClient, type SupabaseClient } from '@supabase/supabase-js';
 
 let cached: SupabaseClient | null = null;
@@ -8,7 +9,7 @@ let cached: SupabaseClient | null = null;
  */
 export function getBrowserClient(): SupabaseClient {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  const key = getPublicSupabaseKey();
   if (!url || !key) throw new Error('Uploads are not configured on this deployment.');
   cached ??= createClient(url, key, { auth: { persistSession: false, autoRefreshToken: false } });
   return cached;

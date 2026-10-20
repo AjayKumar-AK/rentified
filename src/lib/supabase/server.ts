@@ -1,3 +1,4 @@
+import { getPublicSupabaseKey } from '@/lib/config';
 import 'server-only';
 import { cookies } from 'next/headers';
 import { createServerClient, type CookieOptions } from '@supabase/ssr';
@@ -5,7 +6,7 @@ import { createServerClient, type CookieOptions } from '@supabase/ssr';
 /** Cookie-aware client for Supabase Auth (administrator sign-in). */
 export async function createAuthClient() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  const key = getPublicSupabaseKey();
   if (!url || !key) throw new Error('SUPABASE_NOT_CONFIGURED');
   const cookieStore = await cookies();
   return createServerClient(url, key, {

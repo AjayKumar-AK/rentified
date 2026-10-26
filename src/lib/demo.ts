@@ -44,7 +44,7 @@ export function demoListings(): ListingWithPhotos[] {
       id: 'demo-2', slug: 'demo-2', listing_type: 'room', contributor_type: 'tenant',
       title: 'Example: private room in a shared flat', description: 'Demo only.',
       photos: demoPhotos('room-1.jpg', 'Illustrative photo of a room'),
-      city: 'Chennai', locality: 'KG Colony', public_location_text: 'Demo Colony, Example City',
+      city: 'Chennai', locality: 'KGM Colony', public_location_text: 'Demo Colony, Example City',
       accommodation_type: 'private_room', rent_inr: 9500, deposit_inr: 19000,
       brokerage_status: 'none', brokerage_amount_inr: null, available_from: inDays(12),
       furnishing: 'furnished', approved_at: daysAgo(9), last_confirmed_at: daysAgo(8),

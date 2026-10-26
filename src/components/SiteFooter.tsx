@@ -7,7 +7,7 @@ export function SiteFooter() {
       <div className="container">
         <div className="footer__grid">
           <div>
-            <Link href="/" className="wordmark" style={{ color: '#fff' }}>Rent<span>ified</span></Link>
+            <Link href="/" className="wordmark" style={{ color: '#fff' }}>Nook<span>.</span></Link>
             <p className="small" style={{ marginTop: 10 }}>
               An early, community-built rental directory for India. Coverage is limited and grows as people contribute.
             </p>
@@ -44,7 +44,7 @@ export function SiteFooter() {
           </div>
         </div>
         <p className="small" style={{ marginTop: 32, opacity: 0.8 }}>
-          Nook rentals does not verify that every listing is genuine or available. Never pay a deposit or advance before seeing a property in person.
+          Nook does not verify that every listing is genuine or available. Never pay a deposit or advance before seeing a property in person.
         </p>
       </div>
     </footer>

@@ -2,7 +2,7 @@
 // Malayalam, Hindi) can be added as sibling files with the same shape. User-submitted content is never
 // translated or rewritten. See src/messages/index.ts.
 export const en = {
-  brand: 'Rentified',
+  brand: 'Nook rentals',
   nav: { browse: 'Browse rentals', share: 'Share a rental', roommates: 'Roommates', looking: 'Looking for a place?', menu: 'Menu', close: 'Close' },
   hero: {
   eyebrow: 'RENTALS · ROOMS · ROOMMATES · ACROSS INDIA',

@@ -16,7 +16,7 @@ export default function TermsPage() {
         These plain-language terms are for an early experiment and have <strong>not yet had a legal review</strong>. They should be reviewed before any wide public launch.
       </div>
 
-      <h2>What Rentified is</h2>
+      <h2>What Nook rentals is</h2>
       <p>A community-contributed directory of rental information. We are not a broker, agent, landlord or party to any rental. We do not handle rent, deposits or bookings and you should never pay a deposit or advance before seeing a property in person and meeting the person who has the right to rent it out.</p>
 
       <h2>No guarantee of accuracy or availability</h2>

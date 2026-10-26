@@ -103,7 +103,7 @@ export function ListingForm({ mode }: { mode: Mode }) {
         <legend>Consent</legend>
         <div className="stack">
           <Consent name="consent_processing" error={e.consent_processing}
-            label="I agree that Rentified may store and process what I have submitted in order to review and publish this listing."
+            label="I agree that Nook rentals may store and process what I have submitted in order to review and publish this listing."
             detail={<>See the <Link href="/privacy">privacy policy</Link>. You can ask for correction or removal at any time.</>} />
           <Consent name="consent_photo_rights" error={e.consent_photo_rights}
             label="I confirm I have the right to share these photos and this information about the property." />
@@ -146,7 +146,7 @@ function SubmittedPanel({ token }: { token?: string }) {
             <button type="button" className="btn btn--accent btn--sm" onClick={() => navigator.clipboard?.writeText(link).then(() => setCopied(true))}>
               {copied ? 'Copied' : 'Copy link'}
             </button>
-            <a className="btn btn--ghost btn--sm" href={`mailto:?subject=${encodeURIComponent('My Rentified management link')}&body=${encodeURIComponent(link)}`}>Email it to myself</a>
+            <a className="btn btn--ghost btn--sm" href={`mailto:?subject=${encodeURIComponent('My Nook rentals management link')}&body=${encodeURIComponent(link)}`}>Email it to myself</a>
           </div>
         </div>
       )}

@@ -39,7 +39,7 @@ export function TrustSummary({ listing, policy }: { listing: PublicListing; poli
         <span className={`ic ${listing.property_checked_at ? 'ic--yes' : 'ic--no'}`} aria-hidden="true">{listing.property_checked_at ? '✓' : '–'}</span>
         <div>
           <strong>{listing.property_checked_at ? `${t.trust.property} on ${formatDate(listing.property_checked_at)}` : t.trust.propertyNo}</strong>
-          {!listing.property_checked_at && <div className="small muted">No one from Rentified has inspected this property or confirmed ownership.</div>}
+          {!listing.property_checked_at && <div className="small muted">No one from Nook rentals has inspected this property or confirmed ownership.</div>}
         </div>
       </li>
     </ul>

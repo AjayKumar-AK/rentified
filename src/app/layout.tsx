@@ -12,10 +12,10 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: { default: 'Rentified — better rental information, shared by the community', template: '%s · Rentified' },
+  title: { default: 'Nook rentals — better rental information, shared by the community', template: '%s · Nook rentals' },
   description:
     'A community-powered rental platform for India. Share a room or home, find a place, and help keep rental information current. Early version: limited coverage.',
-  openGraph: { type: 'website', siteName: 'Rentified' },
+  openGraph: { type: 'website', siteName: 'Nook rentals' },
 };
 
 export const viewport: Viewport = { themeColor: '#174C3A', width: 'device-width', initialScale: 1 };

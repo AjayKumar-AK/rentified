@@ -1,4 +1,4 @@
-# Rentified — Version 0.1
+# Nook rentals — Version 0.1
 
 A community-powered rental directory for India: browse approved rentals, share a property or room, create roommate-seeker profiles, register renter requirements, report problems, and moderate everything from a private dashboard.
 

@@ -7,7 +7,7 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="container">
         <div className="site-header__row">
-          <Link href="/" className="wordmark" aria-label="Rentified home">
+          <Link href="/" className="wordmark" aria-label="Nook rentals home">
             Rent<span>ified</span>
           </Link>
           <nav className="nav" aria-label="Main">

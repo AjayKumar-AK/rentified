@@ -68,7 +68,7 @@ export function RoommateForm() {
           After approval, these are shown: display name, city, localities, budget, move-in date, preferences and your introduction. Profiles are removed automatically after a limited time.
         </p>
         <div className="stack">
-          <Consent name="consent_processing" error={e.consent_processing} label="I agree that Rentified may store and process my details to review this profile." detail={<>See the <Link href="/privacy">privacy policy</Link>.</>} />
+          <Consent name="consent_processing" error={e.consent_processing} label="I agree that Nook rentals may store and process my details to review this profile." detail={<>See the <Link href="/privacy">privacy policy</Link>.</>} />
           <Consent name="consent_public_profile" error={e.consent_public_profile} label="I agree to the public parts of this profile being shown once approved." />
           <Consent name="consent_public_contact" tone="public" label="Optional: also show my contact details publicly." detail="Anyone on the internet could see them, including scrapers. Leave unticked to keep your contact private." />
         </div>

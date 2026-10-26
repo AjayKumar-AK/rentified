@@ -1,4 +1,4 @@
--- Rentified v0.1 — security: RLS, grants, storage
+-- Nook rentals v0.1 — security: RLS, grants, storage
 -- Model: deny by default. All privileged reads/writes happen server-side with the
 -- service_role key (which bypasses RLS) AFTER application-level authorization.
 -- anon/authenticated may only SELECT the three public_* views.

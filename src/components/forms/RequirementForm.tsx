@@ -18,7 +18,7 @@ export function RequirementForm() {
       <div className="stack" role="status">
         <div className="alert alert--ok">
           <h2 style={{ fontSize: '1.7rem' }}>Your requirement is saved.</h2>
-          <p><strong>What happens next:</strong> it is stored privately and will not be shown to the public. People running Rentified may read it to understand what renters need and which listings to look for.</p>
+          <p><strong>What happens next:</strong> it is stored privately and will not be shown to the public. People running Nook rentals may read it to understand what renters need and which listings to look for.</p>
           <p><strong>What does not happen:</strong> we do not send alerts, match you automatically, or contact you unless you ticked the box allowing it — and even then we cannot promise a reply or a result. Meanwhile, you can browse approved listings yourself.</p>
         </div>
         <div className="btn-row">
@@ -59,7 +59,7 @@ export function RequirementForm() {
       <fieldset className="fieldset">
         <legend>Consent</legend>
         <div className="stack">
-          <Consent name="consent_processing" error={e.consent_processing} label="I agree that Rentified may store and process this requirement." detail={<>See the <Link href="/privacy">privacy policy</Link>.</>} />
+          <Consent name="consent_processing" error={e.consent_processing} label="I agree that Nook rentals may store and process this requirement." detail={<>See the <Link href="/privacy">privacy policy</Link>.</>} />
           <Consent name="consent_contact_me" label="Optional: you may contact me if a relevant listing is shared." detail="This is permission only — it is not a promise that we will contact you." />
         </div>
       </fieldset>

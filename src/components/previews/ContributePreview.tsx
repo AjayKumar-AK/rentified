@@ -3,7 +3,7 @@ import { DemoFrame } from '@/components/previews/DemoFrame';
 /** Preview 2 — the contribution flow, built from the same field/chip/badge styles as the real form. */
 export function ContributePreview() {
   return (
-    <DemoFrame url="rentified / share / room" label="Preview of the contribution form">
+    <DemoFrame url="Nook rentals / share / room" label="Preview of the contribution form">
       <div aria-hidden="true" className="stack" style={{ gap: 14 }}>
         <div className="row" style={{ justifyContent: 'space-between' }}>
           <strong style={{ fontFamily: 'var(--serif)', fontSize: '1.2rem' }}>Offer a room</strong>

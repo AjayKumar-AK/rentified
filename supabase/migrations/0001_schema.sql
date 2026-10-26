@@ -1,4 +1,4 @@
--- Rentified v0.1 — core schema
+-- Nook rentals v0.1 — core schema
 -- Run order: 0001_schema.sql -> 0002_security.sql
 -- Design rule: base tables are NEVER readable by anon/authenticated roles.
 -- Public data is exposed only through the views at the bottom of this file.

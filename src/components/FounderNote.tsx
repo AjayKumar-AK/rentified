@@ -4,7 +4,7 @@
 import { useEffect, useState } from 'react';
 
 const EMAIL = 'ajaykumar.sudarsan1407@gmail.com';
-const STORAGE_KEY = 'rentified-founder-note-closed';
+const STORAGE_KEY = 'Nook rentals-founder-note-closed';
 
 /**
  * Floating note from the founder. Closing it is remembered in this browser only (localStorage,
@@ -52,16 +52,16 @@ export function FounderNote() {
       </div>
       <div className="founder__body small">
         <p>
-          Hi I am Ajay, founder of Rentified.
+          Hi I am Ajay, founder of Nook rentals.
         </p>
         <p>
-          We are starting Rentified with simple goal: to make finding rental homes and roommates easier, more transparent, and free of cost.
+          We are starting Nook rentals with simple goal: to make finding rental homes and roommates easier, more transparent, and free of cost.
         </p>
         <p>
-          Rentified is a community-driven platform. Its growth and usefulness depend on people like you contributing genuine listings and helping others find a place they can call home.
+          Nook rentals is a community-driven platform. Its growth and usefulness depend on people like you contributing genuine listings and helping others find a place they can call home.
         </p>
         <p>
-          There are no <strong>payment gateways or paid features</strong>. Rentified is <strong>completely free</strong> to use. If we cannot manage the running expenses, we may ask for voluntary contributions, and we will say so openly.
+          There are no <strong>payment gateways or paid features</strong>. Nook rentals is <strong>completely free</strong> to use. If we cannot manage the running expenses, we may ask for voluntary contributions, and we will say so openly.
         </p>
         <p>
           <strong>Have a question, suggestion, or feedback?</strong> Feel free to reach out.
@@ -70,7 +70,7 @@ export function FounderNote() {
           <strong>Email:</strong> <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
         </p>
         <p style={{ marginBottom: 0 }}>
-          <strong>Every genuine contribution helps Rentified grow.</strong>
+          <strong>Every genuine contribution helps Nook rentals grow.</strong>
         </p>
       </div>
     </aside>

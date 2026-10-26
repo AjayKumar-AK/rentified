@@ -44,7 +44,7 @@ export function SiteFooter() {
           </div>
         </div>
         <p className="small" style={{ marginTop: 32, opacity: 0.8 }}>
-          Rentified does not verify that every listing is genuine or available. Never pay a deposit or advance before seeing a property in person.
+          Nook rentals does not verify that every listing is genuine or available. Never pay a deposit or advance before seeing a property in person.
         </p>
       </div>
     </footer>

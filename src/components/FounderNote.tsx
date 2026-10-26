@@ -55,7 +55,7 @@ export function FounderNote() {
           Hi I am Ajay, founder of Nook rentals.
         </p>
         <p>
-          We are starting Nook rentals with simple goal: to make finding rental homes and roommates easier, more transparent, and free of cost.
+          Frustrated with the current state of the rental platforms across India, we are stFarting Nook rentals with a simple goal: to make finding rental homes and roommates easier, more transparent, and free of cost.
         </p>
         <p>
           Nook rentals is a community-driven platform. Its growth and usefulness depend on people like you contributing genuine listings and helping others find a place they can call home.

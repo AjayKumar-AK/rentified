@@ -12,7 +12,7 @@ export function TrustPreview() {
         <div className="row" style={{ justifyContent: 'space-between' }}>
           <div>
             <div className="lcard__rent">₹28,000 <small>/ month</small></div>
-            <div className="lcard__meta">Sample Nagar, Example City · Shared by the owner</div>
+            <div className="lcard__meta">Gandhi nagar, Example City · Shared by the owner</div>
           </div>
           <span className="badge badge--demo">Demo</span>
         </div>

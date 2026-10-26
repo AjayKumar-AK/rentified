@@ -33,7 +33,7 @@ export function demoListings(): ListingWithPhotos[] {
       id: 'demo-1', slug: 'demo-1', listing_type: 'property', contributor_type: 'owner',
       title: 'Example: bright 2BHK with balcony', description: 'Demo only.',
       photos: demoPhotos('flat-1.jpg', 'Illustrative photo of a flat interior'),
-      city: 'Bangalore', locality: 'Gandhi nagar', public_location_text: 'Gandhi nagar, Example City',
+      city: 'Bengaluru', locality: 'Gandhi nagar', public_location_text: 'Gandhi nagar, Example City',
       accommodation_type: 'apartment', rent_inr: 28000, deposit_inr: 84000,
       brokerage_status: 'none', brokerage_amount_inr: null, available_from: inDays(-1),
       furnishing: 'semi_furnished', approved_at: daysAgo(4), last_confirmed_at: daysAgo(2),
